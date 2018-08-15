@@ -11,6 +11,7 @@ namespace GenerateDll.Areas.uploadFile.Controllers
         // GET: uploadFile/UploadPic1
         public ActionResult Index()
         {
+            string name = "";
             return View();
         }
     }
